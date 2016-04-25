@@ -1,7 +1,91 @@
 <!DOCTYPE html>
 <html>
+<meta name="viewport" content="width=device-width" />
+<head>
+  <style>
+
+    body {font: 10px sans-serif;}
+    .PostCategory {border-top: 1px solid grey; color: lightslategray; margin-bottom: 10px;}
+    .PostContainer {margin: 0 auto;}
+    .PostContainer.post {margin-left: 10px; border: 1px solid grey; margin-bottom: 2px;}
+
+    #head {font-style: bold; font-size: xx-large; width: 100%; height: 70px;
+      overflow: hidden; background: linear-gradient(white, cornsilk); text-decoration-color: white;
+      font-size: medium; color: grey;}
+
+    #wrapper {width: 100%; height: 100px; overflow: hidden; background: linear-gradient(cornsilk, white);
+      text-decoration-color: white; font-size: xx-large; color: white;}
+
+    #first {width: 175px; float:left;}
+    #second {width: 300px; overflow: hidden; float:left; }
+    #third {width: 275px; overflow: hidden; float:left; } 
+    #fourth {width: 300px; overflow: hidden; float:left; } 
+
+  </style>
+  
+  <title> A Data Science Web Portfolio - Selected projects by Paul Thompson</title>
+</head>
+
 <body>
-	<h1>Hello World!</h1>
-	<p>I will be posting projects from my MSAN Data Visualizations course here.</p>
+  
+  <header>
+    <div id="head"> <h1 line-height: STYLE="line-height: 0px;"> A Data Science Web Portfolio </h1> 
+      <p STYLE="margin: 0px 0px 0px 0px; line-height: 0px;"> Selected projects by Paul Thompson </p> 
+    </div>
+    <div id="wrapper">
+      <div  id="first"> <a href=".." STYLE="text-decoration: none" > Home </a> </div>
+      <div  id="second"> <a href="https://www.linkedin.com/in/paul-thompson-8158299b" STYLE="text-decoration: none"> Linkedin Profile </a> </div>
+      <div  id="third"> <a href="https://github.com/thompspe" STYLE="text-decoration: none"> GitHub Profile </a> </div>
+      <div  id="fourth"> <a href="http://thompspe.strikingly.com/" STYLE="text-decoration: none"> Additional About </a> </div>
+    </div>
+  </header>
+  
+  <div > </div> 
+  
+  <div >
+    <h1> Projects (more yet to be added): </h1>
+  </div>
+
+  <div class = "PostCategory">
+    <h1> Machine Learning Projects </h1>
+    <div class="PostContainer"> 
+      <div class="PostContainer post" STYLE= "overflow: hidden;"> 
+        <div STYLE="float:left;"> <embed width=90 height=90 src="conrad.jpg" style="border: 1px solid black;"></div>
+        <div STYLE="float:left; overflow: hidden;">
+          <h2 STYLE="margin-left:5px"> Superpixel Hierarchical Clustering (SPHC) - Image Segmentation Algorithm </h2>
+          <h3 STYLE="margin-left:10px"> I created this algorithm to take image segmentations created by another method (particularly superpixels) and furth cluster them based on color similarity. </h3>
+          <a href="https://github.com/thompspe/image-segm" STYLE="margin-left:10px" > Go to Github </a>
+        </div> 
+      </div>
+    </div>
+  </div>
+
+  <div class = "PostCategory"> 
+    <h1> Visualizations Created with d3.js </h1>
+    <div class="PostContainer"> 
+      <div class="PostContainer post" STYLE= "overflow: hidden;"> 
+        <div STYLE="float:left;"><embed width=90 height=90 src="minwage.jpg" style="border: 1px solid black;"></div> 
+        <div STYLE="float:left;">
+          <h2 STYLE="margin-left:5px"> Has the minimum wage kept up with inflation? </h2>
+          <h3 STYLE="margin-left:10px"> In order to answer this question, the minimum wage - starting in different years - is increased at the annual rate of inflation until 2016. </h3>
+          <a href="../minwage/" STYLE="margin-left:10px" > Go to Visualization </a>
+        </div> 
+      </div>
+      <div class="PostContainer post" STYLE= "overflow: hidden;"> 
+        <div STYLE="float:left;"> <embed width=90 height=90 src="luxembourg.jpg" style="border: 1px solid black;"></div>
+        <div STYLE="float:left; overflow: hidden;">
+          <h2 STYLE="margin-left:5px"> Meanwhile in Luxembourg... </h2>
+          <h3 STYLE="margin-left:10px"> While looking at data in the OECD 2013 world factbook, one country kept sticking out. </h3>
+          <a href="../luxembourg/" STYLE="margin-left:10px" > Go to Visualization </a>
+        </div> 
+      </div>
+    </div>
+  </div>
+
+  
+
+
+
+
 </body>
 </html>
