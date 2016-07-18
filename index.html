@@ -37,15 +37,16 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="..">Home</a>
+      <!-- <a class="navbar-brand" href="..">Home</a> -->
     </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <!-- <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li> -->
+        <li><a href="..">Home</a></li>
         <li><a href="https://www.linkedin.com/in/paul-thompson-8158299b">Linkedin Profile</a></li>
         <li><a href="https://github.com/thompspe">GitHub Profile</a></li>
-        <li><a href="http://thompspe.strikingly.com/">Additional About</a></li>
+        <li><a href="http://thompspe.strikingly.com/"> Additional About</a></li>
       </ul>
     </div>
   </div>
@@ -55,41 +56,87 @@
   <div > </div> 
 
 <div class = "PostCategory"> 
-    <h3> Visualizations Created with d3.js </h3>
+    <h3> Data Science Projects </h3>
     <div class="PostContainer"> 
-      <div class="PostContainer post" STYLE= "overflow: hidden;"> 
-        <!-- <div STYLE="float:left;"><embed width=90 height=90 src="minwage.jpg" style="border: 1px solid black;"></div>  -->
-        <div STYLE="float:left;">
-          <h4 STYLE="margin-left:5px"> Has the minimum wage kept up with inflation? </h4>
-          <p STYLE="margin-left:10px"> In order to answer this question, the minimum wage - starting in different years - is increased at the annual rate of inflation until 2016. </p>
-          <a href="/minwage/" STYLE="margin-left:10px" > Go to Visualization </a>
-        </div> 
-      </div>
-      <div class="PostContainer post" STYLE= "overflow: hidden;"> 
-        <!-- <div STYLE="float:left;"> <embed width=90 height=90 src="luxembourg.jpg" style="border: 1px solid black;"></div> -->
-        <div STYLE="float:left; overflow: hidden;">
-          <h4 STYLE="margin-left:5px"> Meanwhile in Luxembourg... </h4>
-          <p STYLE="margin-left:10px"> While looking at data in the OECD 2013 world factbook, one country kept sticking out. </p>
-          <a href="/luxembourg/" STYLE="margin-left:10px" > Go to Visualization </a>
-        </div>
-      </div>
-      <div class="PostContainer post" STYLE= "overflow: hidden;"> 
+      
+    <div class="PostContainer post" STYLE= "overflow: hidden;"> 
           <!-- <div STYLE="float:left;"> <embed width=90 height=90 src="wisconsin.jpg" style="border: 1px solid black;"></div> -->
           <div STYLE="float:left; overflow: hidden;">
-            <h4 STYLE="margin-left:5px"> Wisconsin County and MSA Income and Employment </h4>
-            <p STYLE="margin-left:10px"> An interactive dashboard shows the breakdown of employment types and salary for metropolitan statistical areas in and neighboring Wisconsin. </p>
+            <h4 STYLE="margin-left:5px"> Wisconsin County and MSA Income and Employment (Data Visualization) </h4>
+            <p STYLE="margin-left:10px"> An interactive dashboard shows the breakdown of employment types and salary for metropolitan statistical areas in and neighboring Wisconsin. This visualization was created using the javascript library d3.js. </p>
             <a href="/wisconsin/" STYLE="margin-left:10px" > Go to Visualization </a>
           </div> 
       </div> 
+
+      <div class="PostContainer post" STYLE= "overflow: hidden;"> 
+        <!-- <div STYLE="float:left;"><embed width=90 height=90 src="minwage.jpg" style="border: 1px solid black;"></div>  -->
+        <div STYLE="float:left;">
+          <h4 STYLE="margin-left:5px"> Has the minimum wage kept up with inflation? (Data Visualization) </h4>
+          <p STYLE="margin-left:10px"> In order to answer this question, the minimum wage - starting in different years - is increased at the annual rate of inflation until 2016. This visualization was created using the javascript library d3.js. </p>
+          <a href="/minwage/" STYLE="margin-left:10px" > Go to Visualization </a>
+        </div> 
+      </div>
+
+      <div class="PostContainer post" STYLE= "overflow: hidden;"> 
+        <!-- <div STYLE="float:left;"> <embed width=90 height=90 src="luxembourg.jpg" style="border: 1px solid black;"></div> -->
+        <div STYLE="float:left; overflow: hidden;">
+          <h4 STYLE="margin-left:5px"> Meanwhile in Luxembourg... (Data Visualization)</h4>
+          <p STYLE="margin-left:10px"> While looking at data in the OECD 2013 world factbook, one country kept sticking out. This visualization was created using the javascript library d3.js.</p>
+          <a href="/luxembourg/" STYLE="margin-left:10px" > Go to Visualization </a>
+        </div>
+      </div>
+
+      <div class="PostContainer post" STYLE= "overflow: hidden;"> 
+        <!-- <div STYLE="float:left;"> <embed width=90 height=90 src="steam.jpg" style="border: 1px solid black;"></div> -->
+        <div STYLE="float:left; overflow: hidden;">
+          <h4 STYLE="margin-left:5px"> Distributed Matrix Factorization Algorithm For Recommendation Systems (Machine Learning)</h4>
+          <p STYLE="margin-left:10px"> I implemented the Alternating Least Squares algorithm in Apache Spark (pyspark). The ALS algorithm is used for collaborative filtering recommendation systems. It trained on the Netflix Prize Data set of over 100,000,000 ratings in 4 hours. </p>
+          <a href="https://github.com/mickeykedia/Matrix-Factorization-ALS" STYLE="margin-left:10px" > Go to Github </a>
+        </div> 
+      </div>
+      
+      <div class="PostContainer post" STYLE= "overflow: hidden;"> 
+        <!-- <div STYLE="float:left;"> <embed width=90 height=90 src="steam.jpg" style="border: 1px solid black;"></div> -->
+        <div STYLE="float:left; overflow: hidden;">
+          <h4 STYLE="margin-left:5px"> Content-based Recommendation System - for Steam games (Machine Learning)</h4>
+          <p STYLE="margin-left:10px"> I created an algorithm that recommends games to users based on attributes of games they've played. </p>
+          <a href="https://github.com/thompspe/Recommendation-Systems" STYLE="margin-left:10px" > Go to Github </a>
+        </div> 
+      </div>
+
+      <div class="PostContainer post" STYLE= "overflow: hidden;"> 
+        <div STYLE="float:left; overflow: hidden;">
+          <h4 STYLE="margin-left:5px"> Superpixel Hierarchical Clustering (SPHC) - Image Segmentation Algorithm (Machine Learning)</h4>
+          <p STYLE="margin-left:10px"> Image segmentaion is helpful for image analysis tasks such as classification. Therefore, I created a image segmentation algorithm that combines neighboring superpixels. </p>
+          <a href="https://github.com/thompspe/image-segm" STYLE="margin-left:10px" > Go to Github </a>
+        </div> 
+      </div>
+
+      <div class="PostContainer post" STYLE= "overflow: hidden;"> 
+        <div STYLE="float:left; overflow: hidden;">
+          <h4 STYLE="margin-left:5px"> Milk and Money Case Study (Linear Regression Analysis) </h4>
+          <p STYLE="margin-left:10px"> A business decides to put a floor on production costs but exchange futures options don't match up with their product. My team (a team member and I) used linear regression to recomend a put option and strike price to use.  </p>
+          <a href="/linear-regression-case.pdf" STYLE="margin-left:10px" > Go to PDF </a>
+        </div> 
+      </div>
+
+      <div class="PostContainer post" STYLE= "overflow: hidden;"> 
+        <div STYLE="float:left; overflow: hidden;">
+          <h4 STYLE="margin-left:5px"> Future Bankruptcy Rates Case Study (Time Series Analysis) </h4>
+          <p STYLE="margin-left:10px"> Using historic monthly Canadian bankruptcy rates from 1987 to 2010, my team predicted rates for 2011. </p>
+          <a href="/time-series-project.pdf" STYLE="margin-left:10px" > Go to PDF </a>
+        </div> 
+      </div>
+
     </div>
   </div>
+  
 
 
-  <div class = "PostCategory">
+<!--   <div class = "PostCategory">
     <h3> Machine Learning Projects </h3>
     <div class="PostContainer"> 
       <div class="PostContainer post" STYLE= "overflow: hidden;"> 
-        <!-- <div STYLE="float:left;"> <embed width=90 height=90 src="steam.jpg" style="border: 1px solid black;"></div> -->
         <div STYLE="float:left; overflow: hidden;">
           <h4 STYLE="margin-left:5px"> Distributed Matrix Factorization Algorithm For Recommendation Systems</h4>
           <p STYLE="margin-left:10px"> I implemented the Alternating Least Squares algorithm in Apache Spark (pyspark). The ALS algorithm is used for collaborative filtering recommendation systems. It trained on the Netflix Prize Data set of over 100,000,000 ratings in 4 hours. </p>
@@ -99,7 +146,6 @@
     </div>
     <div class="PostContainer"> 
       <div class="PostContainer post" STYLE= "overflow: hidden;"> 
-        <!-- <div STYLE="float:left;"> <embed width=90 height=90 src="steam.jpg" style="border: 1px solid black;"></div> -->
         <div STYLE="float:left; overflow: hidden;">
           <h4 STYLE="margin-left:5px"> Content-based Recommendation System - for Steam games</h4>
           <p STYLE="margin-left:10px"> I created an algorithm that recommends games to users based on attributes of games they've played. </p>
@@ -109,7 +155,6 @@
     </div>
     <div class="PostContainer"> 
       <div class="PostContainer post" STYLE= "overflow: hidden;"> 
-        <!-- <div STYLE="float:left;"> <embed width=90 height=90 src="conrad.jpg" style="border: 1px solid black;"></div> -->
         <div STYLE="float:left; overflow: hidden;">
           <h4 STYLE="margin-left:5px"> Superpixel Hierarchical Clustering (SPHC) - Image Segmentation Algorithm </h4>
           <p STYLE="margin-left:10px"> Image segmentaion is helpful for image analysis tasks such as classification. Therefore, I created a image segmentation algorithm that combines neighboring superpixels. </p>
@@ -119,7 +164,7 @@
     </div>
   </div>
 
-  
+   -->
 
 </body>
 </html>
